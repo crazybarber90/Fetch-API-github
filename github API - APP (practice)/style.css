@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg,
+    #2a2a72 0%, #2e2a68 74%);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+input {
+    background-color:#673792;
+    border-radius: 10px;
+    color: white;
+    padding: 1rem;
+    border: none;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    outline: none;
+}
+
+.card {
+    background-color: #673792;
+    background-image: linear-gradient(315deg,
+    #673792 0%, #642980 74%);
+    display: flex;
+    padding: 3rem;
+    border-radius: 15px;
+    box-shadow: 2px 2px 17px  rgb(73, 12, 85);
+    max-width: 800px;
+}
+/* .img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.avatar {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid #2a2a72;
+}
+
+.user-info {
+    color: white;
+    margin-left: 2rem;
+}
+
+.user-info h2 {
+    margin-top: 0;
+}
+
+.user-info ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    width: 300px;
+    list-style-type: none;
+}
+
+.user-info ul li {
+    display: flex;
+    align-items: center;
+}
+
+.user-info ul li strong {
+    font-size: 0.7rem;
+    margin-right: 5px;
+    font-weight: lighter;
+}
+
+.repo{
+    background-color: #2a2a72;
+    display: inline-block;
+    color: white;
+    font-size: 0.8rem;
+    border-radius: 2px;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+}
